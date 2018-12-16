@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: fb5edfc4cec85f14a8b862fa21aca6fa
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Literata Book
+  fontNames:
+  - Literata Book
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 35ba5023177c946469e9739a75b044dd, type: 3}
+  - {fileID: 12800000, guid: 4cafa5655b005c9419fcea70c7d7461a, type: 3}
+  - {fileID: 12800000, guid: a13c33e60fc28b64dabb8c5473cc003d, type: 3}
+  - {fileID: 12800000, guid: 09b13cb9365d14f429bf182d862ebf2d, type: 3}
+  - {fileID: 12800000, guid: 5066716e1f5f73645ac14cb12b4eb9ad, type: 3}
+  - {fileID: 12800000, guid: 3ea5997e56e2fd8459c096ed6aa9d2db, type: 3}
+  - {fileID: 12800000, guid: de4066ee4cba7674b92db04aa647555e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
