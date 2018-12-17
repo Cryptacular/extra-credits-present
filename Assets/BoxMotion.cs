@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class BoxMotion : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject initiator;
+    private bool activated = false;
 
-    // Update is called once per frame
-    void Update()
+
+
+    void OnCollisionEnter(Collision col)
     {
-        
+        if (col.gameObject == initiator && !activated)
+        {
+            this.gameObject.GetComponent<Rigidbody2D>().WakeUp();
+            activated = true;
+        }
     }
 }
